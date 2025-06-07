@@ -1,4 +1,5 @@
 Hotel Management Website
+
 A full-stack web application for managing hotel bookings, providing users with a seamless experience to search, view, and book hotels in real-time. The platform also offers hotel administrators tools to manage room availability and bookings efficiently.
 
 Features
