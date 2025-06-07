@@ -1,0 +1,106 @@
+.payment-page {
+    background-color: #f4f7fc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.payment-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 30px;
+}
+
+.payment-card h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-field label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-field input, .input-field select {
+    width: 550px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+.input-field input:focus, .input-field select:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+.input-field input[type="number"], .input-field input[type="text"] { -moz-appearance: textfield;
+}
+
+.input-field input[type="month"]::-webkit-outer-spin-button, 
+.input-field input[type="month"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.payment-methods {
+    margin-bottom: 30px;
+}
+
+.payment-methods .method-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.payment-methods .method-option input {
+    margin-right: 10px;
+}
+
+.payment-methods .method-option label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.pay-now-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #2107cc;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-now-btn:hover {
+    background-color: #181bd6;
+}
+
+.text-muted {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}

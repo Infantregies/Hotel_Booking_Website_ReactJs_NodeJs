@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  height: 800px;
+  font-family: Arial, sans-serif;
+  background-image: url('C:/Users/regie/OneDrive/Desktop/html project/images/bg.avif');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.inputField label {
+  font-weight: bold;
+}
+
+.inputField input[type="text"],
+.inputField input[type="password"],
+.inputField input[type="email"],
+.inputField input[type="file"],
+.inputField input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.inputField input[type="file"] {
+  padding: 10px 8px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.generateOtpButton{
+  border: 1 px solid black;
+  border-radius: 50px;
+  background-color: #0056b3;
+
+}
+
+.languageToggle {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.languageToggle button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.languageToggle button:hover {
+  background-color: #0056b3;
+}
+
+.language-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.language-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-buttons button:hover {
+  background-color: #0056b3;
+}
